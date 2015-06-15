@@ -1,0 +1,21 @@
+title:               Celeste
+url:                 https://nicoelayda.github.io
+baseurl:             ""
+
+markdown:            kramdown
+highlighter:         pygments
+
+exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock']
+
+permalink:           pretty
+paginate:            5
+paginate_path:       /blog/:num
+
+sass:
+  sass_dir:          _sass
+  style:             :compressed
+
+author:
+  name:              Nico Elayda
+  url:               nicoelayda.github.io
+  email:             nico@elayda.com
