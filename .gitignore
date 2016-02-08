@@ -11,5 +11,9 @@ _site/
 .sass-cache/
 .jekyll-metadata
 
+# rubygems
+.bundle/
+vendor/
+
 # custom
 *.bat
