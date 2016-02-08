@@ -3,9 +3,9 @@ url:                 https://nicoelayda.github.io
 baseurl:             /celeste
 
 markdown:            kramdown
-highlighter:         pygments
+highlighter:         rouge
 
-exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock']
+exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor']
 
 permalink:           pretty
 paginate:            5
@@ -19,3 +19,8 @@ author:
   name:              Nico Elayda
   url:               nicoelayda.github.io
   email:             nico@elayda.com
+
+gems:
+  - jekyll-coffeescript
+  - jekyll-paginate
+  - jekyll-gist
