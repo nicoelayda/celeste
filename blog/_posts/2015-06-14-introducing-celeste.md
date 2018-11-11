@@ -13,7 +13,7 @@ Poole is the Jekyll Butler, serving as an upstanding and effective foundation fo
 * Mobile friendly design and development
 * Easily scalable text and component sizing with `rem` units in the CSS
 * Support for a wide gamut of HTML elements
-* Syntax highlighting, courtesy of Pygments (the Python-based code snippet highlighter)
+* Syntax highlighting, courtesy of [rouge](https://github.com/jneen/rouge)
 
 ### Celeste Features
 
