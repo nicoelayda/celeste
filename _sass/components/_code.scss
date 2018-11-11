@@ -1,7 +1,7 @@
 /**
   * _code.scss
   * Inline and block-level code snippets. Includes tweaks to syntax highlighted
-  * snippets from Pygments/Rouge and Gist embeds
+  * snippets from Rouge and Gist embeds
   */
 
 code,
@@ -29,7 +29,6 @@ pre code {
   background-color: transparent;
 }
 
-// Pygments via Jekyll
 .highlight {
   padding: 1rem;
   margin-bottom: 1rem;

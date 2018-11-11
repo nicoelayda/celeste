@@ -5,7 +5,7 @@ baseurl:             /celeste
 markdown:            kramdown
 highlighter:         rouge
 
-exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor']
+exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
 
 permalink:           pretty
 paginate:            5
@@ -20,7 +20,7 @@ author:
   url:               nicoelayda.github.io
   email:             nico@elayda.com
 
-gems:
+plugins:
   - jekyll-coffeescript
   - jekyll-paginate
   - jekyll-gist
