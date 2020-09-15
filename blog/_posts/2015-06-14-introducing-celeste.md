@@ -24,7 +24,7 @@ In addition to the features of Poole, Celeste adds the following:
 * A landing page template for showcasing the most important content on your website
 * Optimized for compatibility with most reading tools such as [Pocket](https://getpocket.com), [Instapaper](https://www.instapaper.com) and [Feedly](https://feedly.com/).
 * Subtle animations on UI elements that give visual feedback when interacting with the page
-* Over 500 scalable vector icons, courtesy of [Font Awesome](http://fontawesome.io/)
+* Over 500 scalable vector icons, courtesy of [Font Awesome](https://fontawesome.com/v4.7.0/)
 
 <!-- Additional features to follow -->
 <!-- * A blog archives page, to allow easy access to old blog entries -->
