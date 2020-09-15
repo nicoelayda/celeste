@@ -34,7 +34,7 @@ Check out the [README](https://github.com/nicoelayda/celeste#readme) for more de
 
 ### Browser support
 
-Celeste is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.
+Celeste is by preference a forward-thinking project. It is best viewed on the latest versions of Chrome, Safari, Firefox and Microsoft Edge.
 
 ### Download
 
