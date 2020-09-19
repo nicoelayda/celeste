@@ -14,7 +14,12 @@ title: Blog
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {{ post.content }}
+    {% if site.blog.truncated_preview %}
+      {{ post.excerpt }}
+      <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
+    {% else %}
+      {{ post.content }}
+    {% endif %}
   </article>
   {% endfor %}
 </div>
