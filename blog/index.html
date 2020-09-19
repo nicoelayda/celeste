@@ -14,7 +14,7 @@ title: Blog
 
     <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
 
-    {% if site.blog.truncated_preview %}
+    {% if post.truncated_preview == true or site.blog.truncated_preview and post.truncated_preview != false %}
       {{ post.excerpt }}
       <a href="{{ site.baseurl }}{{ post.url }}">Read more</a>
     {% else %}
