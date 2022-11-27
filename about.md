@@ -4,20 +4,21 @@ title: About
 ---
 
 <p class="message">
-      Our work has been featured in the FASEB Journal, and related
-      projects have been undertaken at major universities.
+      Our work has been featured in the [FASEB Journal](https://faseb.onlinelibrary.wiley.com/doi/abs/10.1096/fasebj.2021.35.S1.00384), and [associated
+      projects](https://healthsci.mcmaster.ca/pain-institute/news-events/news-article/2018/09/12/mcmaster-creates-virtual-reality-anatomy-app-that-combines-old-and-new-technologies) have been undertaken at major universities.
 </p>
 
-Celeste is a lightweight Jekyll theme that features a minimalist, content-first design. It places your content center stage and lets your readers view them in a clutter-free environment without visual distractions. It is based on [Poole](https://github.com/poole/poole), the Jekyll butler, by [@mdo](https://twitter.com/mdo).
+Stereoscopy, or stereoscopic imagery, uses the characteristics of human binocular vision to create the perception of depth, making objects appear to be in front of or behind the screen. The technique relies on presenting the right and left eyes with
+two slightly different images which the brain automatically blends into a single view.
 
-In addition to using Poole as its foundation, Celeste is also built using the following open-source projects:
+Stereopsis is an important distinguishing element of visual educational media that has a <b>significant [positive effect](https://onlinelibrary.wiley.com/doi/full/10.1111/medu.14352) on acquisition of anatomical knowledge</b>. But the cost of true-VR headsets still presents a barrier to uptake in anatomy labs. That's why we're focused on the highly-accessible Google Cardboard platform, an inexpensive headset that leverages smartphones to deliver true-stereo 3D visuals.
 
-* [normalize.css](http://necolas.github.io/normalize.css/), a modern, HTML5-ready alternative to CSS resets.
-* [Font Awesome](https://fontawesome.com/v4.7.0/), the iconic font and CSS toolkit.
-* [Hover.css](http://ianlunn.github.io/Hover/), a collection of CSS3 powered hover effects.
+Take a peek below for some samples of prior work and future offerings:
 
-Celeste is <i class="fa fa-code"></i> with <i class="fa fa-heart"></i> by [@nicoelayda](https://github.com/nicoelayda). Learn more and contribute on [GitHub](https://github.com/nicoelayda/celeste).
+* [Virtual Anatomist](http://necolas.github.io/normalize.css/), a totally-unique early-stage app that adds augmented-reality labels to existing anatomical models using computer vision.
+* [ViVRe](https://fontawesome.com/v4.7.0/), a Unity-based volume renderer that takes CT/MRI DICOMs and allows them to be rotated and sliced in performant, mobile-virtual reality
+* [The Stereo Anatomy Reference](http://ianlunn.github.io/Hover/), an artistic and technical guideline/whitepaper for those interested in building stereoscopic VR anatomy educational media of their own.
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/nicoelayda/celeste/issues/new) or [ask me on Twitter](https://twitter.com/nicoelayda).
 
-Thanks for reading!
+Have questions or suggestions? Feel free to [open an issue on our GitHub](https://github.com/malyalar/virtualanatomist/issues/new) or [send me an email](rohitml2013@gmail.com).
+
