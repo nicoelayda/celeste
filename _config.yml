@@ -1,5 +1,5 @@
-title:               Celeste
-url:                 https://nicoelayda.github.io
+title:               VirtualVesalius
+url:                 https://www.virtualvesalius.com
 baseurl:             ""
 
 markdown:            kramdown
@@ -19,9 +19,9 @@ sass:
   style:             :compressed
 
 author:
-  name:              Nico Elayda
-  url:               nicoelayda.github.io
-  email:             nico@elayda.com
+  name:              Rohit Malyala
+  url:               malyalar.github.io
+  email:             rohit@virtualvesalius.com
 
 plugins:
   - jekyll-coffeescript
