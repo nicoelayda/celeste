@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>My A-Frame Scene</title>
+        <script src="https://aframe.io/releases/1.3.0/aframe.min.js"></script>
+        <script src="../build.js"></script>
+
+</head>
+<body>
+   <a-scene>
+      <a-sky color="#FFF"></a-sky>
+      <a-light color="#333" position="0 5 0" type="ambient" intensity="0.2"></a-light>
+      <a-light type="point" color="#EEE" intensity="1.0" position="3 3 10"></a-light>
+
+      <!-- 'left' eye entities will pass through the camera in non-VR mode -->
+
+      <a-camera position="0 0 0" stereocam="eye:left;">
+          <a-cursor color="black"></a-cursor>
+      </a-camera>
+
+      <!-- in VR mode, the first box is displayed only in the left eye, the second one in the right eye -->
+
+      <a-entity geometry="primitive: box" material="color: #C03546" position="0 3 -10" stereo="eye:left"></a-entity>
+      <a-entity geometry="primitive: box" material="color: #3546C0" position="0 5 -10" stereo="eye:right"></a-entity>
+
+   </a-scene>
+
+ </body>
+ </html>
