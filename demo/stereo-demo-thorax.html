@@ -14,17 +14,21 @@
 			<img id="right" src="{{site.baseurl}}/demo/assets/stereo-demo-pelvis.jpg">
 		<a-assets>
 
-		<!-- Sky -->
-		<a-sky></a-sky>
+		<!-- Sky 
+		<a-sky></a-sky> -->
 
 		<!-- Camera -->
-		<a-camera stereocam="eye: right"></a-camera>
+		<a-camera stereocam="eye: right"></a-camera> 
 
-		<!-- Stereoscopic image -->
+		<!-- Stereoscopic image
 		<a-image src="#left" position="0 1.5 -1" height="0.75" stereo="eye: left">
 		</a-image>
 		<a-image src="#right" position="0 1.5 -1" height="0.75" stereo="eye: right">
-		</a-image>
+		</a-image> -->
+
+		<!-- Stereoscopic 360 image -->
+		<a-sky src"#left" rotation=0 -90 0" stereo="eye: left"></a-sky>
+		<a-sky src"#right" rotation=0 -90 0" stereo="eye: right"></a-sky>
 
 	</a-scene>
 </body>
