@@ -18,7 +18,13 @@
 		<a-sky></a-sky>
 
 		<!-- Camera -->
-		<a-camera></a-camera>
+		<a-camera stereocam="eye:right"></a-camera>
+
+		<!-- Stereoscopic image -->
+		<a-image src="#left" position="0 1.5 -1" height="0.75" stereo="eye: left">
+		</a-image>
+		<a-image src="#left" position="0 1.5 -1" height="0.75" stereo="eye:right">
+		</a-image>
 
 	</a-scene>
 </body>
