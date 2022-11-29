@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<title>Stereoscopic thorax demo</title>
+  	<script src="https://aframe.io/releases/latest/aframe.min.js"></script>
+  	<script src="aframe-stereo-component.js.min.js"></script>
+</head>
+
+<body>
+	<a-scene>
+		<!-- Asset Management System -->
+		<a-assets>
+			<img id="left" src="{{site.baseurl}}/demo/assets/stereo-demo-thorax-left.jpg">
+			<img id="right" src="{{site.baseurl}}/demo/assets/stereo-demo-thorax-right.jpg">
+		<a-assets>
+
+		<!-- Sky -->
+		<a-sky></a-sky>
+
+		<!-- Camera -->
+		<a-camera></a-camera>
+
+	</a-scene>
+</body>
+</html>

@@ -10,6 +10,8 @@ title: About
 Stereoscopy, or stereoscopic imagery, uses the characteristics of human binocular vision to create the perception of depth, making objects appear to be in front of or behind the screen. The technique relies on presenting the right and left eyes with
 two slightly different images which the brain automatically blends into a single view.
 
+<img src="{{site.baseurl}}/assets/img/stereo-heart.png">
+
 Stereopsis is an important distinguishing element of visual educational media that has a <b>significant [positive effect](https://onlinelibrary.wiley.com/doi/full/10.1111/medu.14352) on acquisition of anatomical knowledge</b>. But the cost of true-VR headsets still presents a barrier to uptake in anatomy labs. That's why we're focused on the highly-accessible Google Cardboard platform, an inexpensive headset that leverages smartphones to deliver true-stereo 3D visuals.
 
 Take a peek below for some samples of prior work and future offerings:
