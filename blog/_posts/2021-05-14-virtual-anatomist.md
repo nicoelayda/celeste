@@ -27,6 +27,8 @@ First of all, this computer vision/artificial intelligence app will only work on
 
 This labeling is made possible by a hybrid depth-estimation and semantic segmentation-focused machine learning (ML) architecture. When you point the camera at an object, the app runs the image through a depth-estimator to create a depth map (or in the future, to use an existing LIDAR phone sensor, if present, to create a true depth map), and also runs the color image through a neural network to segment-map out what the anatomical object of interest is. The depth map and the segment maps are then parsed in a seperate network to label regions of interest.
 
+<img src="{{site.baseurl}}/assets/img/Capture.png">
+
 The primary barrier to making an app like this is often the generation of quality ground truth data. Image collections of anatomical specimens must ideally be taken under different conditions, with different augmentations applied to images to improve the ability of the application to robustly recognize and label different parts of a specimen. Manual collection and annotation of the hundreds or thousands of such images required for training is infeasible. 
 
 However, we've created a novel workflow using procedurally generated images from a 3D-modelled skull (here, in the open-source computer graphics software Blender). With Python programming and Blender, we can produce arbitrarily large, photorealistic ground-truth training datasets with pixel-perfect semantic segmentation of anatomical features. 
