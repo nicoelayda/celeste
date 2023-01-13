@@ -25,3 +25,44 @@
 // Pages
 @import "pages/landing";
 @import "pages/posts";
+
+.container {
+            display: inline-flex;
+        }
+
+        @media (max-width: 900px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+
+        #img-div1 {
+            background: white;
+            margin: 0 24px;
+            background-image: url("https://www.wearethemighty.com/app/uploads/legacy/assets.rbl.ms/17317425/origin.jpg");
+            background-size: cover;
+            width: 550px;
+            height: 300px;
+        }
+
+        #img-div2 {
+            background: white;
+            margin: 0 24px;
+            background-image: url("https://arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/MIE5YDG625EFNGPHMVLSL3JDKM.jpg");
+            background-size: cover;
+            width: 550px;
+            height: 300px;
+        }
+
+        #img-caption {
+            margin: 10px 0 5px 0;
+            text-align: center;
+        }
+
+        @media (max-width: 460px) {
+            #img-caption {
+                font-size: 1.4rem;
+            }
+        }
