@@ -1,6 +1,6 @@
 .founder-container {
   display: flex;
-  margin-top: 20px; /* added space between the top of the container and the images */
+  margin-top: 30px; /* added space between the top of the container and the images */
 }
 
 .founder {
@@ -12,9 +12,11 @@
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  position: relative; /* added position relative for the img */
-  right: 10px; /* added translation to the right */
+  position: relative; 
+  left: 10px; 
+  object-fit: cover; /* maintain aspect ratio */
 }
+
 
 .founder-bio {
   font-size: 14px;
