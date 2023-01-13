@@ -25,3 +25,25 @@
 // Pages
 @import "pages/landing";
 @import "pages/posts";
+
+
+
+.founder-container {
+  display: flex;
+}
+
+.founder {
+  flex: 1;
+  text-align: center;
+}
+
+.founder-img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+.founder-bio {
+  font-size: 14px;
+  margin-top: 10px;
+}
