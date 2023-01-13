@@ -5,11 +5,8 @@ truncated_preview: true
 excerpt_separator: <!--more-->
 ---
 
-<div class="message">
-  Some of our most complex work yet! This particular project is still in the development phase. Come back soon for more updates and a demo!
-</div>
 
-3D stereoscopic Basset slides are a collection of open-source, high-resolution images of human anatomy. These images contain an incredible level of detail and accuracy, making them an invaluable resource for medical professionals, students, and researchers.
+The 3D stereoscopic Basset slides are a collection of open-source, high-resolution images of human anatomy. These images contain an incredible level of detail and accuracy, making them an invaluable resource for medical professionals, students, and researchers.
 
 They are a collection of 2D images that were captured using a technique called side-by-side (SBS) stereoscopy, which involves taking two images of an object from slightly different angles, and then combining them to create a 3D image that can be viewed using specialized glasses or a virtual reality device. This allows the user to gain a better understanding of the human anatomy and its structures.
 
