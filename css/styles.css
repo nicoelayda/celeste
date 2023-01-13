@@ -1,24 +1,40 @@
-.founder-container {
-  display: flex;
-  margin-top: 30px; /* added space between the top of the container and the images */
-}
+.container {
+            display: inline-flex;
+        }
 
-.founder {
-  flex: 1;
-  text-align: center;
-}
-
-.founder-img {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-  position: relative; 
-  left: 10px; 
-  object-fit: cover; /* maintain aspect ratio */
-}
+        @media (max-width: 900px) {
+            .container {
+                display: flex;
+                flex-direction: column;
+            }
+        }
 
 
-.founder-bio {
-  font-size: 14px;
-  margin-top: 10px;
-}
+        #img-div1 {
+            background: white;
+            margin: 0 24px;
+            background-image: url("{{ site.baseurl }}/assets/img/founder1.jpeg");
+            background-size: cover;
+            width: 550px;
+            height: 300px;
+        }
+
+        #img-div2 {
+            background: white;
+            margin: 0 24px;
+            background-image: url("{{ site.baseurl }}/assets/img/founder2.jpeg");
+            background-size: cover;
+            width: 550px;
+            height: 300px;
+        }
+
+        #img-caption {
+            margin: 10px 0 5px 0;
+            text-align: center;
+        }
+
+        @media (max-width: 460px) {
+            #img-caption {
+                font-size: 1.4rem;
+            }
+        }
