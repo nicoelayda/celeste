@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Virtual Anatomist
+title: Basset Slides
 truncated_preview: true
 excerpt_separator: <!--more-->
 ---
